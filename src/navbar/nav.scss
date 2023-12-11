@@ -2,16 +2,17 @@ nav {
   display: flex;
   justify-content: space-evenly;
   padding: 6px;
+  height: 30px;
 
   .nav-bar-list {
     display: flex;
     justify-content: space-between;
     margin: 5px;
-}
+  }
 
-.text {
-  margin-left: 10px;
-}
+  .text {
+    margin-left: 10px;
+  }
 
   .nav-bar-list li {
     width: max-content;
@@ -27,16 +28,16 @@ nav {
   .nav-bar-list li a {
     text-decoration: none;
     color: white;
-}
+  }
 
-.nav-section-bar-list {
-  display: flex;
-  justify-content: space-between;
-  margin: 5px;
-}
+  .nav-section-bar-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
 
-.nav-section-bar-list li {
-  width: max-content;
+  .nav-section-bar-list li {
+    width: max-content;
     margin: 1px 15px;
     padding: 2px 4px;
     text-decoration: underline;
@@ -44,15 +45,60 @@ nav {
     text-decoration: none;
     border-bottom: 1px solid darkslateblue;
     height: fit-content;
+  }
 
- }
-
- .nav-section-bar-list li a {
-  text-decoration: none;
-  color:darkslateblue;
- }
+  .nav-section-bar-list li a {
+    text-decoration: none;
+    color: darkslateblue;
+  }
 }
 
 .nav-section {
   margin: 15px;
+}
+
+.climb-navbar {
+  display: flex;
+  background-color: #1e3a8a;
+  padding: 0px;
+  height: fit-content;
+
+  .climb-navbar-list {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .climb-navbar-list li {
+    list-style: none;
+  }
+
+  .climb-navbar-list li a {
+    text-decoration: underline;
+    text-decoration-color: #1e3a8a;
+    text-underline-offset: 4px;
+  }
+  .climb-navbar-list .mountain-2 {
+    margin-left: 20px;
+  }
+
+  .active-mountain-list {
+    color: #1e3a8a;
+    background-color: #e5e7eb;
+    font-weight: 600;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    padding: 1px 16px;
+    text-decoration: none;
+  }
+
+  .inactive-mountain-list {
+    color: #e5e7eb;
+    font-weight: 600;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+    padding: 1px 16px;
+    text-decoration: none;
+  }
 }

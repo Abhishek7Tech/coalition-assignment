@@ -3,6 +3,7 @@ import Text from "../assets/img/text-1.png";
 import "../index.css";
 import NavBarSection from "../navbar/nav-section";
 import History from "../history-section/history-section";
+import Climb from "../climb/climb";
 const Main = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Main = () => {
     </main>
     <NavBarSection></NavBarSection>
     <History></History>
+    <Climb></Climb>
     </>
   );
 };
