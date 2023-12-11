@@ -47,13 +47,13 @@ const SlideShow = () => {
         })}
       </div>
       <div className="slides-btns">
-        <button className="slider-btn active" onClick={button1Handler}>
+        <button className= {"slider-btn" && activeBtn.one ? "active" : "inactive"} onClick={button1Handler}>
           &#9679;
         </button>
-        <button className="slider-btn inactive" onClick={button2Handler}>
+        <button className= {"slider-btn" && activeBtn.tow ? "active" : "inactive"} onClick={button2Handler}>
           &#9679;
         </button>
-        <button className="slider-btn inactive" onClick={button3Handler}>
+        <button className= {"slider-btn" && activeBtn.three ? "active" : "inactive"} onClick={button3Handler}>
           &#9679;
         </button>
       </div>

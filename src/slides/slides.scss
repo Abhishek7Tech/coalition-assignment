@@ -1,17 +1,25 @@
 .slider {
     background-color:   rgba(21, 5, 124, 0.7);
-    
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
     .slides {
         display: flex;
-        justify-content: space-evenly;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .slider-img {
+        padding: 15px 5px 5px;
     }
 
     .slides-btns {
         text-align: center;
     }
-    .slider-btn {
+    .slides-btns button {
         background-color: transparent;
         border: none;
+        cursor: pointer;
     }
 
     .active {
