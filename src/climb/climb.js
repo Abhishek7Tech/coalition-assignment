@@ -1,5 +1,5 @@
+import ClimbSection from "../climb-section/climb-section";
 import "../index.css";
-import ClimbNavBar from "../navbar/climb-nav";
 
 const Climb = () => {
   return (
@@ -23,7 +23,9 @@ const Climb = () => {
         </p>
       </div>
     </section>
-    <ClimbNavBar></ClimbNavBar>
+    
+    <ClimbSection></ClimbSection>
+    <footer className="climb-list-footer"></footer>
     </>
   );
 };
