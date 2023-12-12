@@ -8,7 +8,7 @@ import { scrollToSection } from "../utils/scroller";
 const NavBarSection = () => {
   const {historySection, teamSection} = useContext(ScrollContext);
   return (
-    <nav className="nav-section">
+    <nav className="nav-section nav">
       <div>
         <img src={Logo} alt="site-logo" className="logo"></img>
         <img src={Text} alt="los angles mountain text" className="text"></img>

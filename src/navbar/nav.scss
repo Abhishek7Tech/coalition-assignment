@@ -1,4 +1,4 @@
-nav {
+.nav {
   display: flex;
   justify-content: space-evenly;
   padding: 6px;
@@ -58,82 +58,13 @@ nav {
   margin: 15px;
 }
 
-.climb-navbar {
-  display: flex;
-  background-color: #1e3a8a;
-  padding: 0px;
-  height: fit-content;
 
-  .climb-navbar-list {
-    width: 60%;
-    display: flex;
-    align-items: center;
-    margin: 0px;
-  }
-
-  .climb-navbar-list li {
-    list-style: none;
-  }
-
-  .climb-navbar-list li a {
-    text-decoration: underline;
-    text-decoration-color: #1e3a8a;
-    text-underline-offset: 4px;
-  }
-  .climb-navbar-list .mountain-2 {
-    margin-left: 20px;
-  }
-
-  .active-mountain-list {
-    color: #1e3a8a;
-    background-color: #e5e7eb;
-    font-weight: 600;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 24px;
-    padding: 1px 16px;
-    text-decoration: none;
-  }
-
-  .inactive-mountain-list {
-    color: #e5e7eb;
-    font-weight: 600;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 24px;
-    padding: 1px 16px;
-    text-decoration: none;
-  }
-}
-
-.nav-bar-mobile-btn {
-  right: 5px;
-  top: 20px;
-  position: absolute;
-  background-color: white;
-  border: none;
-  border-radius: 15%;
-  margin: 10px;
-  z-index: 500;
-}
-
-.nav-bar-mobile-btn img {
-  width: 24px;
-  height: 24px;
-}
-
-.nav-mobile {
-  position: relative;
-  z-index: 200;
-  width: 100%;
-  background-color: rgba(229, 231, 235, 0.9);
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-}
 
 @media screen and (max-width: 400px) {
   //section-navbar
   .nav-section {
+    background-color: red;
+
     .text {
       width: 80px;
       height: 40px;
@@ -145,20 +76,5 @@ nav {
     }
   }
 
-  // climb navbar
-  .climb-navbar {
-    background-color: red;
-    .climb-navbar-list {
-      width: 100%;
-    }
-
-    .active-mountain-list {
-      font-size: 16px;
-      font-weight: 500;
-    }
-    .inactive-mountain-list {
-      font-size: 16px;
-      font-weight: 500;
-    }
-  }
+ 
 }

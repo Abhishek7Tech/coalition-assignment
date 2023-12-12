@@ -1,0 +1,28 @@
+
+
+.nav-bar-mobile-btn {
+    right: 5px;
+    top: 20px;
+    position: absolute;
+    background-color: white;
+    border: none;
+    border-radius: 15%;
+    margin: 10px;
+    z-index: 500;
+  }
+  
+  .nav-bar-mobile-btn img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .nav-mobile {
+    position: relative;
+    z-index: 200;
+    width: 100%;
+    background-color: rgba(229, 231, 235, 0.9);
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+  }

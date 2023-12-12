@@ -9,7 +9,7 @@ const NavBar = () => {
   const { teamSection, historySection } = useContext(ScrollContext);
 
   return (
-    <nav className="nav-main">
+    <nav className="nav-main nav">
       <div>
         <img src={Logo} alt="site-logo"></img>
       </div>
