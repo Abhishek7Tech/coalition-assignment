@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import SlideShow from "../slides/slides";
+import { ScrollContext } from "../context/scroll-to";
 
 const History = () => {
+  const {historySection} = useContext(ScrollContext)
   return (
-    <section className="history">
+    <section ref={historySection}  className="history">
       <div className="history-section">
         <div className="history-heading">
           <div className="heading-1">

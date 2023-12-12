@@ -1,10 +1,13 @@
+import { useContext } from "react";
 import ClimbSection from "../climb-section/climb-section";
 import "../index.css";
+import { ScrollContext } from "../context/scroll-to";
 
 const Climb = () => {
+  const {teamSection} = useContext(ScrollContext);
   return (
     <>
-    <section className="climb">
+    <section ref={teamSection} className="climb">
       <div className="climb-head">
         <div className="climb-heading">
           <div className="heading-1">
