@@ -68,3 +68,29 @@
   height: 40px;
   background-color: #1e3a8a;
 }
+
+@media screen and (max-width: 400px) {
+  .climb {
+    .climb-head {
+      flex-direction: column;
+    }
+    .climb-heading {
+      margin: 5px 2px;
+    }
+    .climb-heading h2 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .climb-heading h3 {
+      font-size: 16px;
+    }
+    .climb-heading h1 { 
+      font-size: 48px;
+    }
+
+    .heading-2 {
+      padding-top: 5px;
+    }
+  }
+}

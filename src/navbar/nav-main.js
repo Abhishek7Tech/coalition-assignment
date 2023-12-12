@@ -4,10 +4,12 @@ import "../index.css";
 import { useContext } from "react";
 import { ScrollContext } from "../context/scroll-to";
 import { scrollToSection } from "../utils/scroller";
+
 const NavBar = () => {
-  const {teamSection, historySection} = useContext(ScrollContext);
+  const { teamSection, historySection } = useContext(ScrollContext);
+
   return (
-    <nav>
+    <nav className="nav-main">
       <div>
         <img src={Logo} alt="site-logo"></img>
       </div>

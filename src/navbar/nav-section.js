@@ -10,7 +10,7 @@ const NavBarSection = () => {
   return (
     <nav className="nav-section">
       <div>
-        <img src={Logo} alt="site-logo"></img>
+        <img src={Logo} alt="site-logo" className="logo"></img>
         <img src={Text} alt="los angles mountain text" className="text"></img>
       </div>
       <ol className="nav-section-bar-list">

@@ -4,18 +4,23 @@ import "../index.css";
 import NavBarSection from "../navbar/nav-section";
 import History from "../history-section/history-section";
 import Climb from "../climb/climb";
+import { useRef } from "react";
+import NavBarMobile from "../navbar/nav-main-mobile";
 const Main = () => {
+  const width = useRef(window.innerWidth);
+  console.log(width);
   return (
     <>
-    <main>
-      <NavBar></NavBar>
-      <div className="heading">
-       <img src={Text} alt="Los Angeles Mountain Logo"></img>
-      </div>
-    </main>
-    <NavBarSection></NavBarSection>
-    <History></History>
-    <Climb></Climb>
+      <main>
+         <NavBar></NavBar>
+         {/* <NavBarMobile></NavBarMobile> */}
+        <div className="heading">
+          <img src={Text} alt="Los Angeles Mountain Logo"></img>
+        </div>
+      </main>
+      <NavBarSection></NavBarSection>
+      <History></History>
+      <Climb></Climb>
     </>
   );
 };

@@ -3,6 +3,7 @@ nav {
   justify-content: space-evenly;
   padding: 6px;
   height: 30px;
+  width: auto;
 
   .nav-bar-list {
     display: flex;
@@ -100,5 +101,64 @@ nav {
     font-size: 24px;
     padding: 1px 16px;
     text-decoration: none;
+  }
+}
+
+.nav-bar-mobile-btn {
+  right: 5px;
+  top: 20px;
+  position: absolute;
+  background-color: white;
+  border: none;
+  border-radius: 15%;
+  margin: 10px;
+  z-index: 500;
+}
+
+.nav-bar-mobile-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-mobile {
+  position: relative;
+  z-index: 200;
+  width: 100%;
+  background-color: rgba(229, 231, 235, 0.9);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 400px) {
+  //section-navbar
+  .nav-section {
+    .text {
+      width: 80px;
+      height: 40px;
+    }
+
+    .logo {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  // climb navbar
+  .climb-navbar {
+    background-color: red;
+    .climb-navbar-list {
+      width: 100%;
+    }
+
+    .active-mountain-list {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .inactive-mountain-list {
+      font-size: 16px;
+      font-weight: 500;
+    }
   }
 }
