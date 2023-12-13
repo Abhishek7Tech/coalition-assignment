@@ -7,15 +7,43 @@ main {
   .heading {
     position: absolute;
     text-align: center;
-    top: 240px;
-    left: 412px;
+    top: 250px;
+    left: 420px;
   }
 }
 
-@media screen and (max-width: 400px) {
- main {
-   .heading img {
-     display: none;
-   }
- }
+
+
+@media screen and (max-width: 600px) {
+  main {
+    .heading img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    .heading img {
+      width: 400px;
+      height: 250px;
+    }
+    .heading {
+      top: 240px;
+      left: 30%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    .heading img {
+      width: 500px;
+      height: 300px;
+    }
+    .heading {
+      top: 200px;
+      left: 25%;
+    }
+  }
 }

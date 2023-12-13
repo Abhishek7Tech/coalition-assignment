@@ -13,7 +13,7 @@ const Main = () => {
     <>
       <main>
          <NavBar></NavBar>
-         {/* <NavBarMobile></NavBarMobile> */}
+         <NavBarMobile></NavBarMobile>
         <div className="heading">
           <img src={Text} alt="Los Angeles Mountain Logo"></img>
         </div>

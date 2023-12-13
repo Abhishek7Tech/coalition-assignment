@@ -58,23 +58,13 @@
   margin: 15px;
 }
 
-
-
-@media screen and (max-width: 400px) {
-  //section-navbar
+@media screen and (max-width: 600px) {
+  .nav-main {
+    display: none;
+  }
   .nav-section {
-    background-color: red;
-
-    .text {
-      width: 80px;
-      height: 40px;
-    }
-
-    .logo {
-      width: 30px;
-      height: 30px;
+    .site-logo {
+      display: flex;
     }
   }
-
- 
 }

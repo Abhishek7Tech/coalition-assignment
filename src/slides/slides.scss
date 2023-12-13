@@ -35,13 +35,8 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
  
-  .slider {
-    overflow-x: scroll;
-  }
-
-
   .slider-img {
     padding: 5px 2px 2px;
     margin: auto;
@@ -53,4 +48,10 @@
     display: none;
   }
 
+}
+
+@media screen and (max-width: 1200px) {
+  .slider {
+    overflow-x: scroll;
+  }
 }
